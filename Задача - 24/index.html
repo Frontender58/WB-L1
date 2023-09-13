@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица данных</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        cursor: pointer; /* Добавляем указатель мыши для заголовков таблицы */
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">Имя</th>
+          <th onclick="sortTable(1)">Фамилия</th>
+          <th onclick="sortTable(2)">Телефон</th>
+          <th onclick="sortTable(3)">Адрес</th>
+          <th onclick="sortTable(4)">Город</th>
+          <th onclick="sortTable(5)">Штат</th>
+          <th onclick="sortTable(6)">Почтовый индекс</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div id="pagination">
+      <button onclick="changePage(-1)">Предыдущая страница</button>
+      <span id="page-number">1</span>
+      <button onclick="changePage(1)">Следующая страница</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

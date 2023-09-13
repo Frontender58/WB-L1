@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MathX Library</title>
+  </head>
+  <body>
+    <h1>MathX Library</h1>
+
+    <label for="fibonacci-n">Calculate Fibonacci Number:</label>
+    <input type="number" id="fibonacci-n" />
+    <button onclick="calculateFibonacci()">Calculate</button>
+    <p id="fibonacci-result"></p>
+
+    <label for="fibonacci-all-n"
+      >Calculate All Fibonacci Numbers Up To N:</label
+    >
+    <input type="number" id="fibonacci-all-n" />
+    <button onclick="calculateAllFibonacci()">Calculate</button>
+    <p id="fibonacci-all-result"></p>
+
+    <label for="prime-n">Calculate All Primes Up To N:</label>
+    <input type="number" id="prime-n" />
+    <button onclick="calculatePrimes()">Calculate</button>
+    <p id="prime-result"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

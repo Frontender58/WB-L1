@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 10px;
+}

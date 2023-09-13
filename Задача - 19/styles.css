@@ -1,0 +1,11 @@
+#widget {
+  width: 50%;
+  height: 500px;
+  overflow: auto;
+}
+
+.post {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}

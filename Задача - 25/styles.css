@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+#createButton {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
